@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTU Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <div class="logo">
+                    <img src="APJ_Abdul_Kalam_Technological_University_logo.png" width="70" height="80">
+
+                </svg>
+                <span>KTU Student Login</span>
+            </div>
+
+            <div class="signin-form">
+                <h1>Welcome Back!</h1>
+                <p class="subtitle">Access the official KTU academic dashboard for results, course materials and future opportunities!</p>
+                <form id="signinForm">
+                    <div class="form-group">
+                        <label for="username">User name</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-options">
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="remember">
+                            <span class="checkmark"></span>
+                            <span class="checkbox-label">Remember for 30 days</span>
+                        </label>
+                        <a href="#" class="forgot-link">Forgot password</a>
+                    </div>
+                    <button type="submit" class="btn-signin">Sign in</button>
+                    <p class="signup-text">
+                        Don't have an account? <a href="#" class="signup-link">Sign up</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <!-- Background Icons -->
+            <div class="icon icon-chat" style="top: 8%; left: 15%;"></div>
+            <div class="icon icon-headphones" style="top: 5%; right: 20%;"></div>
+            <div class="icon icon-bubble" style="top: 10%; right: 5%;"></div>
+            <div class="icon icon-globe" style="top: 35%; left: 8%;"></div>
+            <!-- Wavy lines -->
+            <svg class="wave-line wave-1" viewBox="0 0 200 20">
+                <path d="M0,10 Q10,5 20,10 T40,10 T60,10 T80,10 T100,10 T120,10 T140,10 T160,10 T180,10 T200,10" stroke="#5a67d8" stroke-width="2" fill="none"/>
+            </svg>
+            <svg class="wave-line wave-2" viewBox="0 0 200 20">
+                <path d="M0,10 Q10,15 20,10 T40,10 T60,10 T80,10 T100,10 T120,10 T140,10 T160,10 T180,10 T200,10" stroke="#5a67d8" stroke-width="2" fill="none"/>
+            </svg>
+    
+            
+            <!-- Main Illustration -->
+            <video width="800" height="800" autoplay muted loop>
+                <source src="devak.mp4" type="video/mp4">
+            </video> 
+           
+
+
+                
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
